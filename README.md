@@ -91,4 +91,8 @@ The dfw command performs a department or college-wide search for all courses who
 
 Here’s an example of a college-wide search for courses above 99.0%:
 
-//img 
+<img width="445" alt="Screen Shot 2019-05-15 at 9 25 29 AM" src="https://user-images.githubusercontent.com/23105576/57783329-8ca0f500-76f3-11e9-8832-67ca6265299f.png">
+
+*more departments in alphabetical order by department name*
+
+<img width="442" alt="Screen Shot 2019-05-15 at 9 25 40 AM" src="https://user-images.githubusercontent.com/23105576/57783332-8e6ab880-76f3-11e9-8b9c-23ae0bfa344f.png"> 
