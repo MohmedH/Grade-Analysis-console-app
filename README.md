@@ -36,8 +36,8 @@ The summary command outputs a college-wide summary, or a departmental summary. T
 
 This is for 'all'
 	
-Beginning 
-
+Beginning:
+<img width="927" alt="Screen Shot 2019-05-15 at 8 58 09 AM" src="https://user-images.githubusercontent.com/23105576/57782576-249ddf00-76f2-11e9-90f7-0d4e559ead3b.png">
 
 ...Depts in the middle
 
