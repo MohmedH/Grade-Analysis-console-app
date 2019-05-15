@@ -50,44 +50,44 @@ Ending
 
 The search command performs a department or college-wide search by course number or instructor prefix. The user is first prompted for a department name, e.g. “CS”, or “all” which means the college. The user is then prompted to enter a course number or instructor prefix. All input is case-sensitive. Here’s a departmental search for CS 341:
 
-//IMG
+<img width="828" alt="Screen Shot 2019-05-15 at 9 00 05 AM" src="https://user-images.githubusercontent.com/23105576/57782757-7cd4e100-76f2-11e9-9abe-16a690e2319a.png">
 
 And a departmental search by instructor prefix “Bel”:
 
-//IMG
+<img width="824" alt="Screen Shot 2019-05-15 at 9 00 30 AM" src="https://user-images.githubusercontent.com/23105576/57782760-7d6d7780-76f2-11e9-9b9a-32afd13bced1.png">
 
 Here are college-wide searches by course number and instructor prefix. Note that for college-wide searches, the output is sorted first by department, then course #, then section # (for a course # search), and by instructor, then course #, then section # (for a prefix search).
 
-//IMG
+<img width="547" alt="Screen Shot 2019-05-15 at 9 01 07 AM" src="https://user-images.githubusercontent.com/23105576/57782765-7e9ea480-76f2-11e9-9883-656b4799bee0.png">
 
-//IMG
-//IMG
+<img width="541" alt="Screen Shot 2019-05-15 at 9 01 15 AM" src="https://user-images.githubusercontent.com/23105576/57782769-80686800-76f2-11e9-8e70-8d652e40f48a.png">
+<img width="639" alt="Screen Shot 2019-05-15 at 9 01 25 AM" src="https://user-images.githubusercontent.com/23105576/57782771-8100fe80-76f2-11e9-8868-8b8ca6d1bac3.png">
 
 ### 3. unknown command:
 
 The unknown command performs a department or college-wide search for all courses whose Grading type is Course::Unknown. The user is prompted for a department name, e.g. “CS”, or “all” which means the college. Here are the unknown courses for the ME department (output ordered by course #, then section #):
 
-//img
+<img width="608" alt="Screen Shot 2019-05-15 at 9 03 13 AM" src="https://user-images.githubusercontent.com/23105576/57782779-82cac200-76f2-11e9-911f-2e1b76083c57.png">
 
 Here are the unknown courses college-wide (output is ordered by dept name, course #, section #):
 
-//img
+<img width="618" alt="Screen Shot 2019-05-15 at 9 03 23 AM" src="https://user-images.githubusercontent.com/23105576/57782789-852d1c00-76f2-11e9-97d0-285abe8e09be.png">
 
 ### 4. dfw command (D's, F's, and Withdrawals):
 
 The dfw command performs a department or college-wide search for all courses whole DFW rate exceeds a threshold input by the user. Here’s an example for the CS department with a threshold of 40.0%, notice the output is in descending order by DFW rate:
 
-//img
+<img width="529" alt="Screen Shot 2019-05-15 at 9 04 33 AM" src="https://user-images.githubusercontent.com/23105576/57782796-86f6df80-76f2-11e9-9d76-a970b935e8da.png">
 
 Here’s a college-wide search for courses with a DFW rate above 40.0%:
 
-//img
+<img width="468" alt="Screen Shot 2019-05-15 at 9 04 52 AM" src="https://user-images.githubusercontent.com/23105576/57782800-89593980-76f2-11e9-8300-824a77b685cf.png">
 
 ### 5. letterA command:
 
 The dfw command performs a department or college-wide search for all courses whole percentage of letter A grades exceeds a threshold input by the user. Here’s an example for the CS department with a letter A threshold of 80.0%. Notice the output is in descending order the percentage of A grades, where if 2 courses have the same percentage, the output is then ordered by dept, course #, section # (all in ascending order)
 
-//img
+<img width="432" alt="Screen Shot 2019-05-15 at 9 05 45 AM" src="https://user-images.githubusercontent.com/23105576/57782809-8b22fd00-76f2-11e9-8424-67f16c564d6c.png">
 
 Here’s an example of a college-wide search for courses above 99.0%:
 
