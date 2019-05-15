@@ -22,30 +22,29 @@ Grade Analysis console app in C++
 
 ### Upon input of the file you are given out quick stats about the entire college from the CSV file:
 
-//IMG
-
+<img width="962" alt="Stats" src="https://user-images.githubusercontent.com/23105576/57782290-8a3d9b80-76f1-11e9-9948-fd87aa070e17.png">
 
 #### Once the summary is output, the program prompts the user to input a command. The user can input commands in any order, and can input any number of commands. The “#” command ends the program. There are 5 commands: “summary”, “search”, “unknown”, “dfw”, and “letterA”. Commands are case-sensitive, and any other input should result in the output “**unknown command”. Here’s an example:
 
-//IMG
-
+<img width="743" alt="Screen Shot 2019-05-15 at 8 55 55 AM" src="https://user-images.githubusercontent.com/23105576/57782293-8b6ec880-76f1-11e9-8897-f285d2140099.png">
 
 ### 1. summary command:
 
 The summary command outputs a college-wide summary, or a departmental summary. The user is prompted for a department name, e.g. “CS”, or “all” which means the college. The input is case-sensitive. Here’s a departmental summary:
 
-//img
+<img width="923" alt="Screen Shot 2019-05-15 at 8 58 01 AM" src="https://user-images.githubusercontent.com/23105576/57782298-8dd12280-76f1-11e9-9422-e20303488d32.png">
 
-
-	This is for 'all'
+This is for 'all'
 	
-	Beginning 
-	//img
+Beginning 
 
-	...Depts in the middle
 
-	Ending
-	//img
+...Depts in the middle
+
+Ending
+
+<img width="929" alt="Screen Shot 2019-05-15 at 8 58 22 AM" src="https://user-images.githubusercontent.com/23105576/57782303-90337c80-76f1-11e9-8ea1-46e37611a5de.png">
+
 
 ### 2. search command: 
 
