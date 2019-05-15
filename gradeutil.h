@@ -1,7 +1,7 @@
 /*gradeutil.h*/
  
 //
-// Prof. Joe Hummel
+// Mohmed Hira
 // U. of Illinois, Chicago
 // CS 341, Spring 2019
 // Project #02: GradeUtil API
